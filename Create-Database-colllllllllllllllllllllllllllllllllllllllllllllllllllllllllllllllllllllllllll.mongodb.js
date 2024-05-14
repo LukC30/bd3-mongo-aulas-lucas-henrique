@@ -7,3 +7,6 @@ const collection ='libri-collection';
 //Acessa o banco de dados libri-database
 
 use(database);
+
+
+db.createCollection(collection);
